@@ -1,0 +1,145 @@
+body{
+    margin:0;
+    box-sizing: border-box;
+    height:100vh;
+    width:100%;
+}
+*{
+    box-sizing: border-box;
+}
+.toolbar{
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+    margin: 20px;
+    box-sizing: border-box;
+    /* flex-direction:column; */
+
+}
+.hamberger{
+padding:1rem;
+height: 5rem;
+width: 5rem;
+border-radius: 50%;
+box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
+.hamburger .line{
+    width: 45px;
+    height: 5px;
+    background-color: #c5cbcc;
+    display: block;
+    margin: 8px auto;
+    
+    transition: all 0.3s ease-in-out;
+  }
+.cross{
+    left: 280px;
+    top:37px;
+    position: fixed;
+}
+.toolbar-option{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2rem;
+    width:600px;
+    height:80px;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.4);
+}
+.tool img,.cross img{
+    height:40px ;
+    width: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.upload-img{
+    width:100%;
+    height:80%
+}
+.sticky {
+    height: 10rem;
+    width : 7rem;
+
+    /*  */
+    position: absolute;
+    left    : 40vw;
+    top     : 40vh;
+  
+}
+
+.nav {
+    border          : 1px solid black;
+    height          : 20%;
+    background-color: aquamarine;
+    display         : flex;
+    justify-content : flex-end;
+    gap             : 1rem;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.4);
+    margin-bottom: 3px;
+    border-radius: 8px;
+    border-bottom: none;
+    border:none;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    outline: none;
+    padding: 4px;
+    
+
+}
+.nav:hover {
+    cursor: move;
+  }
+
+textarea {
+    height: 80%;
+    width : 100%;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.4);
+    padding:8px;
+    outline: none;
+    border: none;
+
+}
+.input-tag{
+    display: none;
+}
+#board{
+    background-color: white;
+}
+
+
+/* // .sticky */
+.close {
+    z-index: 50;
+    /* right: 11px; */
+    box-sizing: border-box;
+    width: 25px;
+    height: 20px;
+    border-radius: 30px;
+    background-color: #ff4757;
+    position: absolute;
+    padding: 2px;
+    /* top: 9px; */
+    margin-left:5px ;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  #minimize {
+    z-index: 50;
+    right: 36px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 30px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: #16da67;
+    position: absolute;
+    /* top: 9px; */
+    cursor: pointer;
+  }
+
+
+ 
